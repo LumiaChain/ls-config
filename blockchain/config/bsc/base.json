@@ -1,7 +1,18 @@
 {
   "chainId": 56,
   "rpc": [
-    "wss://bsc.node.opsvc.io/QztY8kDU2VgY9uduunVrkkKPNf6ss94q"
+    {
+      "url": "https://bsc.node.opsvc.io/QztY8kDU2VgY9uduunVrkkKPNf6ss94q",
+      "protocols": ["https:", "wss:"],
+      "maxBatchSize": 20,
+      "maxRequestTreads": 10
+    },
+    {
+      "url": "https://bsc-dataseed.binance.org",
+      "protocols": ["https:"],
+      "maxBatchSize": 5,
+      "maxRequestTreads": 2
+    }
   ],
   "wethAddress": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
   "wethAsset": "WBNB",
