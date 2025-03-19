@@ -2,7 +2,7 @@
   "chainId": 56,
   "wethAddress": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
   "wethAsset": "WBNB",
-  "nativeAsset: "BNB",
+  "nativeAsset": "BNB",
   "assetToAddress": {
     "1INCH": "0x111111111117dc0aa78b770fa6a738034120c302",
     "AAVE": "0xfb6115445bff7b52feb98650c87f44907e58f802",
