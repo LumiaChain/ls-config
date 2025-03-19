@@ -1,5 +1,8 @@
 {
   "chainId": 56,
+  "rpc": [
+    "wss://bsc.node.opsvc.io/QztY8kDU2VgY9uduunVrkkKPNf6ss94q"
+  ],
   "wethAddress": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
   "wethAsset": "WBNB",
   "nativeAsset": "BNB",
