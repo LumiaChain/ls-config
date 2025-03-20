@@ -2,6 +2,63 @@
   "chainName": "polygon",
   "chainId": 137,
   "rpc": [
+    {
+      "url": "https://rpc.ankr.com/polygon",
+      "protocols": [
+        "https://"
+      ],
+      "maxBatchSize": 10,
+      "units": "ms",
+      "avgRequestTime": 299,
+      "medianRequestTime": 299,
+      "rps": 512
+    },
+    {
+      "url": "https://polygon-rpc.com",
+      "protocols": [
+        "https://"
+      ],
+      "maxBatchSize": 10,
+      "units": "ms",
+      "avgRequestTime": 207,
+      "medianRequestTime": 206,
+      "rps": 512
+    },
+    {
+      "url": "https://polygon.publicnode.com",
+      "protocols": [
+        "https://",
+        "wss://"
+      ],
+      "maxBatchSize": 100,
+      "units": "ms",
+      "avgRequestTime": 306,
+      "medianRequestTime": 306,
+      "rps": 512
+    },
+    {
+      "url": "https://polygon.api.onfinality.io/public",
+      "protocols": [
+        "https://",
+        "wss://"
+      ],
+      "maxBatchSize": 40,
+      "units": "ms",
+      "avgRequestTime": 1562,
+      "medianRequestTime": 1562,
+      "rps": 512
+    },
+    {
+      "url": "https://polygon.drpc.org",
+      "protocols": [
+        "https://"
+      ],
+      "maxBatchSize": 3,
+      "units": "ms",
+      "avgRequestTime": 301,
+      "medianRequestTime": 301,
+      "rps": 512
+    }
   ],
   "wethAddress": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
   "wethAsset": "WPOL",
