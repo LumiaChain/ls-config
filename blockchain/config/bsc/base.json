@@ -1,17 +1,51 @@
 {
+  "chainName": "bsc",
   "chainId": 56,
   "rpc": [
     {
-      "url": "https://bsc.node.opsvc.io/QztY8kDU2VgY9uduunVrkkKPNf6ss94q",
-      "protocols": ["https:", "wss:"],
-      "maxBatchSize": 20,
-      "maxRequestTreads": 10
+      "url": "https://bsc-dataseed1.defibit.io",
+      "protocols": [
+        "https://"
+      ],
+      "maxBatchSize": 100,
+      "units": "ms",
+      "avgRequestTime": 548,
+      "medianRequestTime": 548,
+      "rps": 512
     },
     {
-      "url": "https://bsc-dataseed.binance.org",
-      "protocols": ["https:"],
-      "maxBatchSize": 5,
-      "maxRequestTreads": 2
+      "url": "https://bsc-dataseed1.ninicoin.io",
+      "protocols": [
+        "https://"
+      ],
+      "maxBatchSize": 100,
+      "units": "ms",
+      "avgRequestTime": 222,
+      "medianRequestTime": 223,
+      "rps": 512
+    },
+    {
+      "url": "https://bsc.publicnode.com",
+      "protocols": [
+        "https://",
+        "wss://"
+      ],
+      "maxBatchSize": 1000,
+      "units": "ms",
+      "avgRequestTime": 237,
+      "medianRequestTime": 238,
+      "rps": 512
+    },
+    {
+      "url": "https://bsc.drpc.org",
+      "protocols": [
+        "https://"
+      ],
+      "maxBatchSize": 3,
+      "units": "ms",
+      "avgRequestTime": 269,
+      "medianRequestTime": 269,
+      "rps": 512
     }
   ],
   "wethAddress": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
