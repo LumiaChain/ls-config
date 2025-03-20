@@ -2,6 +2,28 @@
   "chainName": "arbitrum",
   "chainId": 42161,
   "rpc": [
+    {
+      "url": "https://arbitrum.api.onfinality.io/public",
+      "protocols": [
+        "https://"
+      ],
+      "maxBatchSize": 40,
+      "units": "ms",
+      "avgRequestTime": 275,
+      "medianRequestTime": 275,
+      "rps": 512
+    },
+    {
+      "url": "https://arbitrum.drpc.org",
+      "protocols": [
+        "https://"
+      ],
+      "maxBatchSize": 3,
+      "units": "ms",
+      "avgRequestTime": 298,
+      "medianRequestTime": 297,
+      "rps": 512
+    }
   ],
   "wethAddress": "0x82af49447d8a07e3bd95bd0d56f35241523fbab1",
   "wethAsset": "WETH",
@@ -9,7 +31,7 @@
   "assetToAddress": {
     "ETH": "0x82af49447d8a07e3bd95bd0d56f35241523fbab1",
     "USDC": "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
-    "USDT": "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9",
+    "USDT": "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
   },
   "assetToDecimals": {
     "0x0000000000000000000000000000000000000000": 18,
