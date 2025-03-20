@@ -2,6 +2,63 @@
   "chainName": "eth",
   "chainId": 1,
   "rpc": [
+    {
+      "url": "https://api.securerpc.com/v1",
+      "protocols": [
+        "https://"
+      ],
+      "maxBatchSize": 43,
+      "units": "ms",
+      "avgRequestTime": 565,
+      "medianRequestTime": 566,
+      "rps": 512
+    },
+    {
+      "url": "https://1rpc.io/eth",
+      "protocols": [
+        "https://"
+      ],
+      "maxBatchSize": 10,
+      "units": "ms",
+      "avgRequestTime": 236,
+      "medianRequestTime": 236,
+      "rps": 512
+    },
+    {
+      "url": "https://ethereum.publicnode.com",
+      "protocols": [
+        "https://",
+        "wss://"
+      ],
+      "maxBatchSize": 100,
+      "units": "ms",
+      "avgRequestTime": 517,
+      "medianRequestTime": 517,
+      "rps": 512
+    },
+    {
+      "url": "https://eth.api.onfinality.io/public",
+      "protocols": [
+        "https://",
+        "wss://"
+      ],
+      "maxBatchSize": 40,
+      "units": "ms",
+      "avgRequestTime": 256,
+      "medianRequestTime": 256,
+      "rps": 512
+    },
+    {
+      "url": "https://eth.drpc.org",
+      "protocols": [
+        "https://"
+      ],
+      "maxBatchSize": 3,
+      "units": "ms",
+      "avgRequestTime": 286,
+      "medianRequestTime": 286,
+      "rps": 512
+    }
   ],
   "wethAddress": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
   "wethAsset": "WETH",
