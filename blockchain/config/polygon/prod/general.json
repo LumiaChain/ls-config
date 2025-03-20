@@ -1,0 +1,38 @@
+{
+  "chainName": "polygon",
+  "chainId": 137,
+  "rpc": [
+  ],
+  "wethAddress": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+  "wethAsset": "WPOL",
+  "nativeAsset": "POL",
+  "assetToAddress": {
+    "BTC": "0x1bfd67037b42cf73acf2047067bd4f2c47d9bfd6",
+    "DAI": "0x8f3cf7ad23cd3cadbd9735aff958023239c6a063",
+    "ETH": "0x7ceb23fd6bc0add59e62ac25578270cff1b9f619",
+    "LINK": "0x53e0bca35ec356bd5dddfebbd1fc0fd03fabad39",
+    "WPOL": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+    "SOL": "0xd93f7e271cb87c23aaa73edc008a79646d1f9912",
+    "USDC": "0x3c499c542cef5e3811e1192ce70d8cc03d5c3359",
+    "USDT": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f"
+  },
+  "assetToDecimals": {
+    "0x0000000000000000000000000000000000000000": 18,
+    "0x1bfd67037b42cf73acf2047067bd4f2c47d9bfd6": 8,
+    "0x8f3cf7ad23cd3cadbd9735aff958023239c6a063": 18,
+    "0x7ceb23fd6bc0add59e62ac25578270cff1b9f619": 18,
+    "0x53e0bca35ec356bd5dddfebbd1fc0fd03fabad39": 18,
+    "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270": 18,
+    "0xd93f7e271cb87c23aaa73edc008a79646d1f9912": 18,
+    "0x3c499c542cef5e3811e1192ce70d8cc03d5c3359": 6,
+    "0xc2132d05d31c914a87c6611c10748aeb04b58e8f": 6,
+    "BTC": 8,
+    "DAI": 18,
+    "ETH": 18,
+    "LINK": 18,
+    "WPOL": 18,
+    "SOL": 18,
+    "USDC": 6,
+    "USDT": 6
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "chainName": "arbitrum",
+  "chainId": 421614,
+  "rpc": [
+  ],
+  "wethAddress": "0x980b62da83eff3d4576c647993b0c1d7faf17c73",
+  "wethAsset": "WETH",
+  "nativeAsset": "ETH",
+  "assetToAddress": {
+    "ETH": "0x980b62da83eff3d4576c647993b0c1d7faf17c73"
+  },
+  "assetToDecimals": {
+    "0x0000000000000000000000000000000000000000": 18,
+    "0x980b62da83eff3d4576c647993b0c1d7faf17c73": 18,
+    "ETH": 18
+  }
+}

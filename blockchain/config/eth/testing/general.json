@@ -1,0 +1,13 @@
+{
+  "chainName": "eth",
+  "chainId": 11155111,
+  "rpc": [
+  ],
+  "wethAddress": "0xfff9976782d46cc05630d1f6ebab18b2324d6b14",
+  "wethAsset": "WETH",
+  "nativeAsset": "ETH",
+  "assetToAddress": {
+  },
+  "assetToDecimals": {
+  }
+}

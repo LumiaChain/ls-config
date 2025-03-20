@@ -1,0 +1,17 @@
+{
+  "chainName": "polygon",
+  "chainId": 80001,
+  "rpc": [
+  ],
+  "wethAddress": "0x329B54e5E5D0467Cf7B04553F2E3aAbb22372B4E",
+  "wethAsset": "WPOL",
+  "nativeAsset": "POL",
+  "assetToAddress": {
+    "POL": "0x329B54e5E5D0467Cf7B04553F2E3aAbb22372B4E"
+  },
+  "assetToDecimals": {
+    "0x0000000000000000000000000000000000000000": 18,
+    "0x329B54e5E5D0467Cf7B04553F2E3aAbb22372B4E": 18,
+    "POL": 18
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "chainName": "base",
+  "chainId": 84532,
+  "rpc": [
+  ],
+  "wethAddress": "0x9d36e0edb8bbabeec5ede8a218dc2b9a6fce494f",
+  "wethAsset": "WETH",
+  "nativeAsset": "ETH",
+  "assetToAddress": {
+    "ETH": "0x9d36e0edb8bbabeec5ede8a218dc2b9a6fce494f"
+  },
+  "assetToDecimals": {
+    "0x0000000000000000000000000000000000000000": 18,
+    "0x9d36e0edb8bbabeec5ede8a218dc2b9a6fce494f": 18,
+    "ETH": 18
+  }
+}
