@@ -7,10 +7,10 @@
       "protocols": [
         "https://"
       ],
-      "maxBatchSize": 50,
+      "maxBatchSize": 16,
       "units": "ms",
-      "avgRequestTime": 548,
-      "medianRequestTime": 548,
+      "avgRequestTime": 259,
+      "medianRequestTime": 259,
       "rps": 512
     },
     {
@@ -18,10 +18,10 @@
       "protocols": [
         "https://"
       ],
-      "maxBatchSize": 10,
+      "maxBatchSize": 30,
       "units": "ms",
-      "avgRequestTime": 222,
-      "medianRequestTime": 223,
+      "avgRequestTime": 326,
+      "medianRequestTime": 326,
       "rps": 512
     },
     {
@@ -32,8 +32,8 @@
       ],
       "maxBatchSize": 1000,
       "units": "ms",
-      "avgRequestTime": 237,
-      "medianRequestTime": 238,
+      "avgRequestTime": 241,
+      "medianRequestTime": 241,
       "rps": 512
     },
     {
