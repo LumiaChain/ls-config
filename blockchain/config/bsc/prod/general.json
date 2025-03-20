@@ -7,7 +7,7 @@
       "protocols": [
         "https://"
       ],
-      "maxBatchSize": 100,
+      "maxBatchSize": 50,
       "units": "ms",
       "avgRequestTime": 548,
       "medianRequestTime": 548,
@@ -18,7 +18,7 @@
       "protocols": [
         "https://"
       ],
-      "maxBatchSize": 50,
+      "maxBatchSize": 10,
       "units": "ms",
       "avgRequestTime": 222,
       "medianRequestTime": 223,
