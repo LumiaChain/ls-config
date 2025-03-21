@@ -1,0 +1,37 @@
+syntax = "proto3";
+
+package state;
+
+message UpdateBalance {
+  bytes wallet = 1;
+  repeated BalanceWithDiff token_balances = 2;
+}
+
+message BalanceWithDiff {
+  bytes contract = 1;
+  bytes balance = 2;
+  bytes diff = 3; // Optional: will be 0 in StateOnHeight
+}
+
+message UpdateEvent {
+  int64 height = 1;
+  int64 previousHeight = 2;
+  string network = 3;
+  repeated UpdateBalance balances = 4;
+}
+
+message StateOnHeight {
+  int64 height = 1;
+  string network = 2;
+  repeated StateBalance balances = 3;
+}
+
+message StateBalance {
+  bytes wallet = 1;
+  repeated TokenBalance token_balances = 2;
+}
+
+message TokenBalance {
+  bytes contract = 1;
+  bytes balance = 2;
+}
