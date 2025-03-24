@@ -5,28 +5,354 @@
   "nativeBalanceRead": "0x2a47b694285c0cc8af6f5cfa5fba6731d784b5f4",
   "rpc": [
     {
-      "url": "https://bsc-dataseed1.defibit.io",
+      "url": "https://bsc-mainnet.rpcfast.com?api_key=xbhWBI1Wkguk8SNMu1bvvLurPGLXmgwYeC4S6g2H7WdwFigZSmPWVZRxrskEQwIf",
+      "protocols": [
+        "https://"
+      ],
+      "maxBatchSize": 2,
+      "rps": 500,
+      "avgRequestTime": 1024,
+      "medianRequestTime": 1032,
+      "maxMulticallSize": 2729,
+      "units": "ms"
+    },
+    {
+      "url": "https://bsc.blockrazor.xyz",
+      "protocols": [
+        "https://"
+      ],
+      "maxBatchSize": 1000,
+      "rps": 500,
+      "avgRequestTime": 1369,
+      "medianRequestTime": 1313,
+      "maxMulticallSize": 4000,
+      "units": "ms"
+    },
+    {
+      "url": "https://bsc-mainnet.public.blastapi.io",
+      "protocols": [
+        "https://"
+      ],
+      "maxBatchSize": 27,
+      "rps": 69,
+      "avgRequestTime": 324,
+      "medianRequestTime": 305,
+      "maxMulticallSize": 4000,
+      "units": "ms"
+    },
+    {
+      "url": "https://endpoints.omniatech.io/v1/bsc/mainnet/public",
+      "protocols": [
+        "https://"
+      ],
+      "maxBatchSize": 1,
+      "rps": 10,
+      "avgRequestTime": 684,
+      "medianRequestTime": 686,
+      "maxMulticallSize": 2718,
+      "units": "ms"
+    },
+    {
+      "url": "https://bsc-pokt.nodies.app",
+      "protocols": [
+        "https://"
+      ],
+      "maxBatchSize": 24,
+      "rps": 500,
+      "avgRequestTime": 1060,
+      "medianRequestTime": 1057,
+      "maxMulticallSize": 12,
+      "units": "ms"
+    },
+    {
+      "url": "https://rpc-bsc.48.club",
+      "protocols": [
+        "https://"
+      ],
+      "maxBatchSize": 14,
+      "rps": 39,
+      "avgRequestTime": 309,
+      "medianRequestTime": 317,
+      "maxMulticallSize": 1364,
+      "units": "ms"
+    },
+    {
+      "url": "https://bsc.drpc.org",
+      "protocols": [
+        "https://"
+      ],
+      "maxBatchSize": 3,
+      "rps": 500,
+      "avgRequestTime": 1046,
+      "medianRequestTime": 1046,
+      "maxMulticallSize": 2399,
+      "units": "ms"
+    },
+    {
+      "url": "https://bnb.rpc.subquery.network/public",
+      "protocols": [
+        "https://"
+      ],
+      "maxBatchSize": 50,
+      "rps": 51,
+      "avgRequestTime": 412,
+      "medianRequestTime": 486,
+      "maxMulticallSize": 265,
+      "units": "ms"
+    },
+    {
+      "url": "https://bsc.rpc.blxrbdn.com",
+      "protocols": [
+        "https://"
+      ],
+      "maxBatchSize": 1000,
+      "rps": 499,
+      "avgRequestTime": 763,
+      "medianRequestTime": 701,
+      "maxMulticallSize": 4000,
+      "units": "ms"
+    },
+    {
+      "url": "https://0.48.club",
+      "protocols": [
+        "https://"
+      ],
+      "maxBatchSize": 12,
+      "rps": 67,
+      "avgRequestTime": 315,
+      "medianRequestTime": 272,
+      "maxMulticallSize": 1364,
+      "units": "ms"
+    },
+    {
+      "url": "https://bsc-rpc.publicnode.com",
+      "protocols": [
+        "https://",
+        "wss://"
+      ],
+      "maxBatchSize": 1000,
+      "rps": 500,
+      "avgRequestTime": 1053,
+      "medianRequestTime": 1042,
+      "maxMulticallSize": 2603,
+      "units": "ms"
+    },
+    {
+      "url": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+      "protocols": [
+        "https://"
+      ],
+      "maxBatchSize": 32,
+      "rps": 0,
+      "avgRequestTime": 0,
+      "medianRequestTime": 0,
+      "maxMulticallSize": 0,
+      "units": "ms"
+    },
+    {
+      "url": "https://bsc-dataseed3.defibit.io",
+      "protocols": [
+        "https://"
+      ],
+      "maxBatchSize": 16,
+      "rps": 50,
+      "avgRequestTime": 335,
+      "medianRequestTime": 358,
+      "maxMulticallSize": 4000,
+      "units": "ms"
+    },
+    {
+      "url": "https://bsc-dataseed4.defibit.io",
       "protocols": [
         "https://"
       ],
       "maxBatchSize": 30,
+      "rps": 36,
+      "avgRequestTime": 1000,
+      "medianRequestTime": 974,
+      "maxMulticallSize": 4000,
+      "units": "ms"
+    },
+    {
+      "url": "https://bsc-dataseed4.ninicoin.io",
+      "protocols": [
+        "https://"
+      ],
+      "maxBatchSize": 29,
+      "rps": 74,
+      "avgRequestTime": 342,
+      "medianRequestTime": 347,
+      "maxMulticallSize": 4000,
+      "units": "ms"
+    },
+    {
+      "url": "https://bsc-dataseed4.bnbchain.org",
+      "protocols": [
+        "https://"
+      ],
+      "maxBatchSize": 30,
+      "rps": 62,
+      "avgRequestTime": 359,
+      "medianRequestTime": 375,
+      "maxMulticallSize": 4000,
+      "units": "ms"
+    },
+    {
+      "url": "https://bsc-dataseed1.bnbchain.org",
+      "protocols": [
+        "https://"
+      ],
+      "maxBatchSize": 30,
+      "rps": 64,
+      "avgRequestTime": 322,
+      "medianRequestTime": 319,
+      "maxMulticallSize": 31,
+      "units": "ms"
+    },
+    {
+      "url": "https://bsc-dataseed.bnbchain.org",
+      "protocols": [
+        "https://"
+      ],
+      "maxBatchSize": 30,
+      "rps": 68,
+      "avgRequestTime": 409,
+      "medianRequestTime": 378,
+      "maxMulticallSize": 4000,
+      "units": "ms"
+    },
+    {
+      "url": "https://bsc-dataseed1.defibit.io",
+      "protocols": [
+        "https://"
+      ],
+      "maxBatchSize": 15,
       "rps": 31,
-      "units": "ms",
-      "avgRequestTime": 296,
-      "medianRequestTime": 300,
-      "maxMulticallSize": 2000
+      "avgRequestTime": 281,
+      "medianRequestTime": 273,
+      "maxMulticallSize": 4000,
+      "units": "ms"
+    },
+    {
+      "url": "https://bsc-dataseed2.bnbchain.org",
+      "protocols": [
+        "https://"
+      ],
+      "maxBatchSize": 28,
+      "rps": 33,
+      "avgRequestTime": 841,
+      "medianRequestTime": 945,
+      "maxMulticallSize": 4000,
+      "units": "ms"
+    },
+    {
+      "url": "https://bsc-dataseed3.bnbchain.org",
+      "protocols": [
+        "https://"
+      ],
+      "maxBatchSize": 30,
+      "rps": 62,
+      "avgRequestTime": 318,
+      "medianRequestTime": 327,
+      "maxMulticallSize": 4000,
+      "units": "ms"
     },
     {
       "url": "https://bsc-dataseed1.ninicoin.io",
       "protocols": [
         "https://"
       ],
-      "maxBatchSize": 16,
-      "rps": 52,
-      "units": "ms",
-      "avgRequestTime": 321,
-      "medianRequestTime": 329,
-      "maxMulticallSize": 2000
+      "maxBatchSize": 30,
+      "rps": 69,
+      "avgRequestTime": 305,
+      "medianRequestTime": 293,
+      "maxMulticallSize": 4000,
+      "units": "ms"
+    },
+    {
+      "url": "https://bsc-dataseed3.ninicoin.io",
+      "protocols": [
+        "https://"
+      ],
+      "maxBatchSize": 30,
+      "rps": 64,
+      "avgRequestTime": 683,
+      "medianRequestTime": 636,
+      "maxMulticallSize": 4000,
+      "units": "ms"
+    },
+    {
+      "url": "https://bsc-dataseed2.defibit.io",
+      "protocols": [
+        "https://"
+      ],
+      "maxBatchSize": 30,
+      "rps": 39,
+      "avgRequestTime": 359,
+      "medianRequestTime": 379,
+      "maxMulticallSize": 4000,
+      "units": "ms"
+    },
+    {
+      "url": "https://bsc-dataseed2.ninicoin.io",
+      "protocols": [
+        "https://"
+      ],
+      "maxBatchSize": 30,
+      "rps": 53,
+      "avgRequestTime": 358,
+      "medianRequestTime": 343,
+      "maxMulticallSize": 4000,
+      "units": "ms"
+    },
+    {
+      "url": "https://bnb.api.onfinality.io/public",
+      "protocols": [
+        "https://",
+        "wss://"
+      ],
+      "maxBatchSize": 40,
+      "rps": 40,
+      "avgRequestTime": 473,
+      "medianRequestTime": 612,
+      "maxMulticallSize": 265,
+      "units": "ms"
+    },
+    {
+      "url": "https://binance.nodereal.io",
+      "protocols": [
+        "https://"
+      ],
+      "maxBatchSize": 30,
+      "rps": 46,
+      "avgRequestTime": 391,
+      "medianRequestTime": 374,
+      "maxMulticallSize": 4000,
+      "units": "ms"
+    },
+    {
+      "url": "https://1rpc.io/bnb",
+      "protocols": [
+        "https://"
+      ],
+      "maxBatchSize": 10,
+      "rps": 32,
+      "avgRequestTime": 456,
+      "medianRequestTime": 263,
+      "maxMulticallSize": 2727,
+      "units": "ms"
+    },
+    {
+      "url": "https://services.tokenview.io/vipapi/nodeservice/bsc?apikey=gVFJX5OyPdc2kHH7youg",
+      "protocols": [
+        "https://"
+      ],
+      "maxBatchSize": 1000,
+      "rps": 30,
+      "avgRequestTime": 380,
+      "medianRequestTime": 379,
+      "maxMulticallSize": 2729,
+      "units": "ms"
     },
     {
       "url": "https://bsc.publicnode.com",
@@ -36,22 +362,10 @@
       ],
       "maxBatchSize": 1000,
       "rps": 500,
-      "units": "ms",
-      "avgRequestTime": 1100,
-      "medianRequestTime": 1088,
-      "maxMulticallSize": 2000
-    },
-    {
-      "url": "https://bsc.drpc.org",
-      "protocols": [
-        "https://"
-      ],
-      "maxBatchSize": 3,
-      "rps": 500,
-      "units": "ms",
-      "avgRequestTime": 1182,
-      "medianRequestTime": 1096,
-      "maxMulticallSize": 2000
+      "avgRequestTime": 1018,
+      "medianRequestTime": 1004,
+      "maxMulticallSize": 2603,
+      "units": "ms"
     }
   ],
   "wethAddress": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
