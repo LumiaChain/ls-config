@@ -305,6 +305,7 @@
       "rps": 1,
       "units": "ms",
       "avgRequestTime": 646,
+      "medianRequestTime": 646,
       "maxMulticallSize": 129
     },
     {
