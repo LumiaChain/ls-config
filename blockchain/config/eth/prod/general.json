@@ -285,18 +285,6 @@
       "maxMulticallSize": 2729
     },
     {
-      "url": "https://eth-mainnet.4everland.org/v1/37fa9972c1b1cd5fab542c7bdd4cde2f",
-      "protocols": [
-        "https://"
-      ],
-      "maxBatchSize": 1,
-      "rps": 0,
-      "units": "ms",
-      "avgRequestTime": 0,
-      "medianRequestTime": 0,
-      "maxMulticallSize": 0
-    },
-    {
       "url": "https://eth.nodeconnect.org",
       "protocols": [
         "https://"

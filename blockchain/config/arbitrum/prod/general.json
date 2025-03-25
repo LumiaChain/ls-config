@@ -17,18 +17,6 @@
       "maxMulticallSize": 3084
     },
     {
-      "url": "https://endpoints.omniatech.io/v1/arbitrum/one/public",
-      "protocols": [
-        "https://"
-      ],
-      "maxBatchSize": 1,
-      "rps": 0,
-      "units": "ms",
-      "avgRequestTime": 0,
-      "medianRequestTime": 0,
-      "maxMulticallSize": 44
-    },
-    {
       "url": "https://arbitrum.rpc.subquery.network/public",
       "protocols": [
         "https://"
