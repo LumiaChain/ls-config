@@ -138,18 +138,6 @@
       "units": "ms"
     },
     {
-      "url": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
-      "protocols": [
-        "https://"
-      ],
-      "maxBatchSize": 32,
-      "rps": 0,
-      "avgRequestTime": 0,
-      "medianRequestTime": 0,
-      "maxMulticallSize": 0,
-      "units": "ms"
-    },
-    {
       "url": "https://bsc-dataseed3.defibit.io",
       "protocols": [
         "https://"
