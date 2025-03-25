@@ -76,6 +76,7 @@
       "rps": 1,
       "units": "ms",
       "avgRequestTime": 1201,
+      "medianRequestTime": 1201,
       "maxMulticallSize": 1047
     }
   ],
