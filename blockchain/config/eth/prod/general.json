@@ -1,17 +1,252 @@
 {
   "chainName": "eth",
   "chainId": 1,
+  "multicallAddress": "0xcA11bde05977b3631167028862bE2a173976CA11",
+  "nativeBalanceRead": "0x140b6e8bf46a998465add37f9194f782fa50d06b",
   "rpc": [
+    {
+      "url": "https://eth.blockrazor.xyz",
+      "protocols": [
+        "https://"
+      ],
+      "maxBatchSize": 1000,
+      "rps": 500,
+      "units": "ms",
+      "avgRequestTime": 1055,
+      "medianRequestTime": 1037,
+      "maxMulticallSize": 4000
+    },
     {
       "url": "https://api.securerpc.com/v1",
       "protocols": [
         "https://"
       ],
       "maxBatchSize": 43,
+      "rps": 500,
       "units": "ms",
-      "avgRequestTime": 565,
-      "medianRequestTime": 566,
-      "rps": 512
+      "avgRequestTime": 1089,
+      "medianRequestTime": 1049,
+      "maxMulticallSize": 4000
+    },
+    {
+      "url": "https://rpc.mevblocker.io/fullprivacy",
+      "protocols": [
+        "https://"
+      ],
+      "maxBatchSize": 384,
+      "rps": 44,
+      "units": "ms",
+      "avgRequestTime": 340,
+      "medianRequestTime": 337,
+      "maxMulticallSize": 2665
+    },
+    {
+      "url": "https://rpc.mevblocker.io/noreverts",
+      "protocols": [
+        "https://"
+      ],
+      "maxBatchSize": 384,
+      "rps": 32,
+      "units": "ms",
+      "avgRequestTime": 304,
+      "medianRequestTime": 283,
+      "maxMulticallSize": 2665
+    },
+    {
+      "url": "https://virginia.rpc.blxrbdn.com",
+      "protocols": [
+        "https://"
+      ],
+      "maxBatchSize": 1000,
+      "rps": 11,
+      "units": "ms",
+      "avgRequestTime": 262,
+      "medianRequestTime": 281,
+      "maxMulticallSize": 2729
+    },
+    {
+      "url": "https://singapore.rpc.blxrbdn.com",
+      "protocols": [
+        "https://"
+      ],
+      "maxBatchSize": 1000,
+      "rps": 11,
+      "units": "ms",
+      "avgRequestTime": 257,
+      "medianRequestTime": 253,
+      "maxMulticallSize": 2729
+    },
+    {
+      "url": "https://eth.rpc.blxrbdn.com",
+      "protocols": [
+        "https://"
+      ],
+      "maxBatchSize": 1000,
+      "rps": 56,
+      "units": "ms",
+      "avgRequestTime": 255,
+      "medianRequestTime": 258,
+      "maxMulticallSize": 4000
+    },
+    {
+      "url": "https://uk.rpc.blxrbdn.com",
+      "protocols": [
+        "https://"
+      ],
+      "maxBatchSize": 1000,
+      "rps": 5,
+      "units": "ms",
+      "avgRequestTime": 243,
+      "medianRequestTime": 246,
+      "maxMulticallSize": 2729
+    },
+    {
+      "url": "https://rpc.mevblocker.io/fast",
+      "protocols": [
+        "https://"
+      ],
+      "maxBatchSize": 384,
+      "rps": 39,
+      "units": "ms",
+      "avgRequestTime": 336,
+      "medianRequestTime": 324,
+      "maxMulticallSize": 2665
+    },
+    {
+      "url": "https://rpc.mevblocker.io",
+      "protocols": [
+        "https://"
+      ],
+      "maxBatchSize": 384,
+      "rps": 43,
+      "units": "ms",
+      "avgRequestTime": 334,
+      "medianRequestTime": 353,
+      "maxMulticallSize": 2665
+    },
+    {
+      "url": "https://ethereum.blockpi.network/v1/rpc/public",
+      "protocols": [
+        "https://"
+      ],
+      "maxBatchSize": 5,
+      "rps": 64,
+      "units": "ms",
+      "avgRequestTime": 310,
+      "medianRequestTime": 330,
+      "maxMulticallSize": 4000
+    },
+    {
+      "url": "https://rpc.eth.gateway.fm",
+      "protocols": [
+        "https://"
+      ],
+      "maxBatchSize": 100,
+      "rps": 20,
+      "units": "ms",
+      "avgRequestTime": 258,
+      "medianRequestTime": 232,
+      "maxMulticallSize": 1040
+    },
+    {
+      "url": "https://mainnet.gateway.tenderly.co",
+      "protocols": [
+        "https://",
+        "wss://"
+      ],
+      "maxBatchSize": 5,
+      "rps": 10,
+      "units": "ms",
+      "avgRequestTime": 146,
+      "medianRequestTime": 167,
+      "maxMulticallSize": 191
+    },
+    {
+      "url": "https://ethereum.rpc.subquery.network/public",
+      "protocols": [
+        "https://"
+      ],
+      "maxBatchSize": 50,
+      "rps": 51,
+      "units": "ms",
+      "avgRequestTime": 402,
+      "medianRequestTime": 340,
+      "maxMulticallSize": 265
+    },
+    {
+      "url": "https://gateway.tenderly.co/public/mainnet",
+      "protocols": [
+        "https://",
+        "wss://"
+      ],
+      "maxBatchSize": 4,
+      "rps": 14,
+      "units": "ms",
+      "avgRequestTime": 142,
+      "medianRequestTime": 129,
+      "maxMulticallSize": 159
+    },
+    {
+      "url": "https://eth.drpc.org",
+      "protocols": [
+        "https://"
+      ],
+      "maxBatchSize": 3,
+      "rps": 500,
+      "units": "ms",
+      "avgRequestTime": 1086,
+      "medianRequestTime": 1102,
+      "maxMulticallSize": 2399
+    },
+    {
+      "url": "https://eth-mainnet.rpcfast.com?api_key=xbhWBI1Wkguk8SNMu1bvvLurPGLXmgwYeC4S6g2H7WdwFigZSmPWVZRxrskEQwIf",
+      "protocols": [
+        "https://"
+      ],
+      "maxBatchSize": 2,
+      "rps": 500,
+      "units": "ms",
+      "avgRequestTime": 1092,
+      "medianRequestTime": 1084,
+      "maxMulticallSize": 2729
+    },
+    {
+      "url": "https://eth-mainnet.public.blastapi.io",
+      "protocols": [
+        "https://"
+      ],
+      "maxBatchSize": 27,
+      "rps": 72,
+      "units": "ms",
+      "avgRequestTime": 556,
+      "medianRequestTime": 277,
+      "maxMulticallSize": 4000
+    },
+    {
+      "url": "https://0xrpc.io/eth",
+      "protocols": [
+        "https://",
+        "wss://"
+      ],
+      "maxBatchSize": 100,
+      "rps": 2,
+      "units": "ms",
+      "avgRequestTime": 1112,
+      "medianRequestTime": 1114,
+      "maxMulticallSize": 1
+    },
+    {
+      "url": "https://ethereum-rpc.publicnode.com",
+      "protocols": [
+        "https://",
+        "wss://"
+      ],
+      "maxBatchSize": 100,
+      "rps": 500,
+      "units": "ms",
+      "avgRequestTime": 1090,
+      "medianRequestTime": 1088,
+      "maxMulticallSize": 1040
     },
     {
       "url": "https://1rpc.io/eth",
@@ -19,10 +254,70 @@
         "https://"
       ],
       "maxBatchSize": 10,
+      "rps": 31,
       "units": "ms",
-      "avgRequestTime": 236,
-      "medianRequestTime": 236,
-      "rps": 512
+      "avgRequestTime": 458,
+      "medianRequestTime": 351,
+      "maxMulticallSize": 2729
+    },
+    {
+      "url": "https://eth-pokt.nodies.app",
+      "protocols": [
+        "https://"
+      ],
+      "maxBatchSize": 24,
+      "rps": 500,
+      "units": "ms",
+      "avgRequestTime": 1616,
+      "medianRequestTime": 1640,
+      "maxMulticallSize": 12
+    },
+    {
+      "url": "https://endpoints.omniatech.io/v1/eth/mainnet/public",
+      "protocols": [
+        "https://"
+      ],
+      "maxBatchSize": 1,
+      "rps": 10,
+      "units": "ms",
+      "avgRequestTime": 343,
+      "medianRequestTime": 311,
+      "maxMulticallSize": 2729
+    },
+    {
+      "url": "https://eth-mainnet.4everland.org/v1/37fa9972c1b1cd5fab542c7bdd4cde2f",
+      "protocols": [
+        "https://"
+      ],
+      "maxBatchSize": 1,
+      "rps": 0,
+      "units": "ms",
+      "avgRequestTime": 0,
+      "medianRequestTime": 0,
+      "maxMulticallSize": 0
+    },
+    {
+      "url": "https://eth.nodeconnect.org",
+      "protocols": [
+        "https://"
+      ],
+      "maxBatchSize": 1000,
+      "rps": 15,
+      "units": "ms",
+      "avgRequestTime": 1136,
+      "medianRequestTime": 1288,
+      "maxMulticallSize": 2729
+    },
+    {
+      "url": "https://openapi.bitstack.com/v1/wNFxbiJyQsSeLrX8RRCHi7NpRxrlErZk/DjShIqLishPCTB9HiMkPHXjUM9CNM9Na/ETH/mainnet",
+      "protocols": [
+        "https://"
+      ],
+      "maxBatchSize": 246,
+      "rps": 1,
+      "units": "ms",
+      "avgRequestTime": 646,
+      "maxMulticallSize": 129
     },
     {
       "url": "https://ethereum.publicnode.com",
@@ -31,10 +326,11 @@
         "wss://"
       ],
       "maxBatchSize": 100,
+      "rps": 500,
       "units": "ms",
-      "avgRequestTime": 517,
-      "medianRequestTime": 517,
-      "rps": 512
+      "avgRequestTime": 1273,
+      "medianRequestTime": 1267,
+      "maxMulticallSize": 1040
     },
     {
       "url": "https://eth.api.onfinality.io/public",
@@ -43,21 +339,11 @@
         "wss://"
       ],
       "maxBatchSize": 40,
+      "rps": 41,
       "units": "ms",
-      "avgRequestTime": 256,
-      "medianRequestTime": 256,
-      "rps": 512
-    },
-    {
-      "url": "https://eth.drpc.org",
-      "protocols": [
-        "https://"
-      ],
-      "maxBatchSize": 3,
-      "units": "ms",
-      "avgRequestTime": 286,
-      "medianRequestTime": 286,
-      "rps": 512
+      "avgRequestTime": 379,
+      "medianRequestTime": 378,
+      "maxMulticallSize": 265
     }
   ],
   "wethAddress": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
