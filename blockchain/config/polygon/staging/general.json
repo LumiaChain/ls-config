@@ -14,7 +14,8 @@
     "WPOL": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
     "SOL": "0xd93f7e271cb87c23aaa73edc008a79646d1f9912",
     "USDC": "0x3c499c542cef5e3811e1192ce70d8cc03d5c3359",
-    "USDT": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f"
+    "USDT": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f",
+    "VDA": "0x683565196c3eab450003c964d4bad1fd3068d4cc"
   },
   "assetToDecimals": {
     "0x0000000000000000000000000000000000000000": 18,
@@ -26,6 +27,7 @@
     "0xd93f7e271cb87c23aaa73edc008a79646d1f9912": 18,
     "0x3c499c542cef5e3811e1192ce70d8cc03d5c3359": 6,
     "0xc2132d05d31c914a87c6611c10748aeb04b58e8f": 6,
+    "0x683565196c3eab450003c964d4bad1fd3068d4cc": 18,
     "BTC": 8,
     "DAI": 18,
     "ETH": 18,
@@ -33,6 +35,7 @@
     "WPOL": 18,
     "SOL": 18,
     "USDC": 6,
-    "USDT": 6
+    "USDT": 6,
+    "VDA": 18
   }
 }
