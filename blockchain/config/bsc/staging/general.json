@@ -222,7 +222,8 @@
     "YFI": "0x88f1a5ae2a3bf98aeaf342d26b30a79438c9142e",
     "ZEC": "0x1ba42e5193dfa8b03d15dd1b86a3113bbbef8eeb",
     "ZERC": "0x9c47e503b2f497e9ad9f1c0dfa6bd9fd5456aa4e",
-    "ZIL": "0xb86abcb37c3a4b64f74f59301aff131a1becc787"
+    "ZIL": "0xb86abcb37c3a4b64f74f59301aff131a1becc787",
+    "EURC": "0x8A972Ed397bEd7C0Cbc84cc3EFbC760bb07F80bb"
   },
   "assetToDecimals": {
     "0x0000000000000000000000000000000000000000": 18,
@@ -397,6 +398,7 @@
     "0xfc3e14af0f0c2129a84cc013d48c70d682902874": 18,
     "0xfd7b3a77848f1c2d67e05e54d78d174a0c850335": 18,
     "0xfe56d5892bdffc7bf58f2e84be1b2c32d21c308b": 18,
+    "0x8A972Ed397bEd7C0Cbc84cc3EFbC760bb07F80bb": 18,
     "1INCH": 18,
     "AAVE": 18,
     "ABOND": 18,
@@ -567,6 +569,7 @@
     "YFI": 18,
     "ZEC": 18,
     "ZERC": 18,
-    "ZIL": 12
+    "ZIL": 12,
+    "EURC": 18
   }
 }
