@@ -132,15 +132,18 @@
   "assetToAddress": {
     "ETH": "0x82af49447d8a07e3bd95bd0d56f35241523fbab1",
     "USDC": "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
-    "USDT": "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
+    "USDT": "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9",
+    "WBTC": "0x2f2a2543B76A4166549F7aaB2e75Bef0aefC5B0f"
   },
   "assetToDecimals": {
     "0x0000000000000000000000000000000000000000": 18,
     "0x82af49447d8a07e3bd95bd0d56f35241523fbab1": 18,
     "0xaf88d065e77c8cc2239327c5edb3a432268e5831": 6,
     "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9": 6,
+    "0x2f2a2543B76A4166549F7aaB2e75Bef0aefC5B0f": 8,
     "ETH": 18,
     "USDC": 6,
-    "USDT": 6
+    "USDT": 6,
+    "WBTC": 8
   }
 }
