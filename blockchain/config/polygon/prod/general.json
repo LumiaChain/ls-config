@@ -5,125 +5,16 @@
   "nativeBalanceRead": "0xeCc633384B1B239B7164169Cb3117B9657562666",
   "rpc": [
     {
-      "url": "https://polygon-mainnet.rpcfast.com?api_key=xbhWBI1Wkguk8SNMu1bvvLurPGLXmgwYeC4S6g2H7WdwFigZSmPWVZRxrskEQwIf",
-      "protocols": [
-        "https://"
-      ],
-      "maxBatchSize": 1,
-      "rps": 5,
-      "units": "ms",
-      "avgRequestTime": 6284,
-      "medianRequestTime": 7078,
-      "maxMulticallSize": 2
-    },
-    {
-      "url": "https://polygon-mainnet.public.blastapi.io",
-      "protocols": [
-        "https://"
-      ],
-      "maxBatchSize": 26,
-      "rps": 62,
-      "units": "ms",
-      "avgRequestTime": 303,
-      "medianRequestTime": 319,
-      "maxMulticallSize": 4000
-    },
-    {
-      "url": "https://polygon-rpc.com",
+      "url": "https://polygon-rpc.com/",
       "protocols": [
         "https://"
       ],
       "maxBatchSize": 10,
-      "rps": 79,
-      "units": "ms",
-      "avgRequestTime": 320,
-      "medianRequestTime": 263,
-      "maxMulticallSize": 799
-    },
-    {
-      "url": "https://polygon-pokt.nodies.app",
-      "protocols": [
-        "https://"
-      ],
-      "maxBatchSize": 24,
-      "rps": 500,
-      "units": "ms",
-      "avgRequestTime": 1774,
-      "medianRequestTime": 1766,
-      "maxMulticallSize": 12
-    },
-    {
-      "url": "https://go.getblock.io/02667b699f05444ab2c64f9bff28f027",
-      "protocols": [
-        "https://"
-      ],
-      "maxBatchSize": 100,
-      "rps": 191,
-      "units": "ms",
-      "avgRequestTime": 494,
-      "medianRequestTime": 455,
-      "maxMulticallSize": 1040
-    },
-    {
-      "url": "https://polygon.rpc.subquery.network/public",
-      "protocols": [
-        "https://"
-      ],
-      "maxBatchSize": 50,
-      "rps": 3,
-      "units": "ms",
-      "avgRequestTime": 554,
-      "medianRequestTime": 603,
-      "maxMulticallSize": 265
-    },
-    {
-      "url": "https://1rpc.io/matic",
-      "protocols": [
-        "https://"
-      ],
-      "maxBatchSize": 10,
-      "rps": 17,
-      "units": "ms",
-      "avgRequestTime": 369,
-      "medianRequestTime": 399,
-      "maxMulticallSize": 2657
-    },
-    {
-      "url": "https://endpoints.omniatech.io/v1/matic/mainnet/public",
-      "protocols": [
-        "https://"
-      ],
-      "maxBatchSize": 1,
-      "rps": 2,
-      "units": "ms",
-      "avgRequestTime": 329,
-      "medianRequestTime": 349,
-      "maxMulticallSize": 1
-    },
-    {
-      "url": "https://polygon.drpc.org",
-      "protocols": [
-        "https://"
-      ],
-      "maxBatchSize": 3,
-      "rps": 7,
-      "units": "ms",
-      "avgRequestTime": 401,
-      "medianRequestTime": 354,
-      "maxMulticallSize": 1040
-    },
-    {
-      "url": "https://polygon.api.onfinality.io/public",
-      "protocols": [
-        "https://",
-        "wss://"
-      ],
-      "maxBatchSize": 40,
-      "rps": 41,
-      "units": "ms",
-      "avgRequestTime": 426,
-      "medianRequestTime": 537,
-      "maxMulticallSize": 265
+      "maxMulticallSize": 799,
+      "rps": 112,
+      "avgRequestTime": 4722,
+      "medianRequestTime": 2975,
+      "units": "ms"
     },
     {
       "url": "https://rpc-mainnet.matic.quiknode.pro",
@@ -131,12 +22,12 @@
         "https://",
         "wss://"
       ],
-      "maxBatchSize": 18,
-      "rps": 20,
-      "units": "ms",
-      "avgRequestTime": 488,
-      "medianRequestTime": 469,
-      "maxMulticallSize": 4000
+      "maxBatchSize": 20,
+      "maxMulticallSize": 4000,
+      "rps": 32,
+      "avgRequestTime": 1178,
+      "medianRequestTime": 1221,
+      "units": "ms"
     },
     {
       "url": "https://polygon-bor-rpc.publicnode.com",
@@ -145,11 +36,11 @@
         "wss://"
       ],
       "maxBatchSize": 100,
+      "maxMulticallSize": 1040,
       "rps": 500,
-      "units": "ms",
-      "avgRequestTime": 1216,
-      "medianRequestTime": 1102,
-      "maxMulticallSize": 1040
+      "avgRequestTime": 2241,
+      "medianRequestTime": 2242,
+      "units": "ms"
     },
     {
       "url": "https://polygon.gateway.tenderly.co",
@@ -157,48 +48,24 @@
         "https://"
       ],
       "maxBatchSize": 5,
-      "rps": 11,
-      "units": "ms",
-      "avgRequestTime": 164,
-      "medianRequestTime": 139,
-      "maxMulticallSize": 155
+      "maxMulticallSize": 162,
+      "rps": 16,
+      "avgRequestTime": 703,
+      "medianRequestTime": 648,
+      "units": "ms"
     },
     {
-      "url": "https://gateway.tenderly.co/public/polygon",
-      "protocols": [
-        "https://"
-      ],
-      "maxBatchSize": 5,
-      "rps": 5,
-      "units": "ms",
-      "avgRequestTime": 138,
-      "medianRequestTime": 136,
-      "maxMulticallSize": 154
-    },
-    {
-      "url": "https://rpc.ankr.com/polygon",
-      "protocols": [
-        "https://"
-      ],
-      "maxBatchSize": 10,
-      "rps": 23,
-      "units": "ms",
-      "avgRequestTime": 271,
-      "medianRequestTime": 269,
-      "maxMulticallSize": 2729
-    },
-    {
-      "url": "https://polygon.publicnode.com",
+      "url": "https://polygon.drpc.org",
       "protocols": [
         "https://",
         "wss://"
       ],
-      "maxBatchSize": 100,
-      "rps": 500,
-      "units": "ms",
-      "avgRequestTime": 1029,
-      "medianRequestTime": 1035,
-      "maxMulticallSize": 1040
+      "maxBatchSize": 3,
+      "maxMulticallSize": 1040,
+      "rps": 3,
+      "avgRequestTime": 2690,
+      "medianRequestTime": 2694,
+      "units": "ms"
     }
   ],
   "wethAddress": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
