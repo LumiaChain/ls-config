@@ -1,0 +1,34 @@
+{
+  "chainName": "lumia",
+  "chainId": 994873017,
+  "rpc": [
+    {
+      "url": "https://mainnet-rpc.lumia.org",
+      "protocols": [
+        "https://"
+      ],
+      "maxBatchSize": 30,
+      "rps": 66,
+      "units": "ms",
+      "avgRequestTime": 307,
+      "medianRequestTime": 300,
+      "maxMulticallSize": 3084
+    }
+  ],
+  "wethAddress": "0xe891b5ee2f52e312038710b761ec165792ad25b1",
+  "wethAsset": "WLUMIA",
+  "nativeAsset": "LUMIA",
+  "assetToAddress": {
+    "LUMIA": "0x0000000000000000000000000000000000000000",
+    "WLUMIA": "0xe891b5ee2f52e312038710b761ec165792ad25b1",
+    "USDT": "0x1e4a5963abfd975d8c9021ce480b42188849d41d"
+  },
+  "assetToDecimals": {
+    "0x0000000000000000000000000000000000000000": 18,
+    "0xe891b5ee2f52e312038710b761ec165792ad25b1": 18,
+    "0x1e4a5963abfd975d8c9021ce480b42188849d41d": 6,
+    "LUMIA": 18,
+    "WLUMIA": 18,
+    "USDT": 6
+  }
+}
