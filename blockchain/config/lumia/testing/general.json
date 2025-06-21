@@ -1,12 +1,13 @@
 {
   "chainName": "lumia",
   "chainId": 1952959480,
+  "poolManagerAddress": "0x13044428A9094E72Fa93dc5a9918345f1E07F981",
+  "multicallAddress": "0xcA11bde05977b3631167028862bE2a173976CA11",
+  "nativeBalanceRead": "0x6184b33CDCb1398708F0C8ceED54A2C2B082E09C",
   "rpc": [
     {
       "url": "https://testnet-rpc.lumia.org",
-      "protocols": [
-        "https://"
-      ],
+      "protocols": ["https://"],
       "maxBatchSize": 30,
       "rps": 66,
       "units": "ms",
@@ -15,13 +16,13 @@
       "maxMulticallSize": 3084
     }
   ],
-  "wethAddress": "0x4390573991dbe3b4bfa37768244dac8241eb65ba",
+  "wethAddress": "0xc1b80fe00d30bcce8bb7f2bd0fc49d2db8cca886",
   "wethAsset": "WLUMIA",
   "nativeAsset": "LUMIA",
   "assetToAddress": {
     "2": "0x758daa5f48d5d25cd4887cc14d9c61966e129eae",
-    "7": "0x910ff361ecf05518063faa124163809a24713ed8",
     "3KV": "0xeb811a938157e70f5a4e6e905e0de83fa217a732",
+    "7": "0x910ff361ecf05518063faa124163809a24713ed8",
     "AAA": "0xb20ccb82237bd8dac77ca34e33a3da363ee5351c",
     "APR": "0x917c66dae61e41ec7e0391f89d590efb6e166318",
     "AUCH": "0x11cfa7671fc721996f45181799d6e1ecbf486385",
@@ -101,11 +102,12 @@
     "TOK2": "0x26853b82eff4559ad0e2130469f567d43a2e6013",
     "UPA": "0xbf3ea919730431214d701b7271578df291463754",
     "USDC": "0x55e0978a1863980eb16bbdd43270a4d95ece3a1e",
+    "USDT": "0xe3fca3a2867c605a85666936161d65422aa9cfda",
     "VAD": "0xdeb6c96e98dab3289a11a0fe97930a5312d8c151",
     "W": "0x84c739dd3a2499be070f8c632a32f1d50ea4ec79",
     "WEF": "0x72d723193d07bd9b8edbaa034900008be91e8543",
     "WHY": "0x8218f605e5a756dbc5bbf2623c323cf56b8ae13f",
-    "WLUMIA": "0x4390573991dbe3b4bfa37768244dac8241eb65ba",
+    "WLUMIA": "0xc1b80fe00d30bcce8bb7f2bd0fc49d2db8cca886",
     "WWW": "0x5469289295183f65398e273357e919507a3d63f3",
     "YFI": "0xb0fc76f1c5209324fa0371782dfe5768b81bc04d",
     "ZAL": "0x871292ec96829af8454b69dda852bbee322b97c4",
@@ -114,8 +116,6 @@
     "ZZZZZ": "0x8cdf16177469cf7a2fd0a63d22c9c551d94f40a7"
   },
   "assetToDecimals": {
-    "2": 18,
-    "7": 18,
     "0x0000000000000000000000000000000000000000": 18,
     "0x03e0563b99e828d942f326c81308a808548756b1": 18,
     "0x08ffe4c4f9ead52fb865676f6f4e9de3f547880e": 18,
@@ -137,7 +137,6 @@
     "0x37d69b9ace91900f9e47d3b06f9ac404d20dbc3c": 18,
     "0x386ca8c9f30d17eb253111703c5d48ec928efe6b": 18,
     "0x3a67a2ba20ca52fcef716d936283a64ebc49650d": 18,
-    "0x4390573991dbe3b4bfa37768244dac8241eb65ba": 18,
     "0x43cfa7f440f67ca44690596a54b8e15ab6fbe87c": 18,
     "0x44d4ea653776c508b584f8f18bceab0d7fccd7ac": 18,
     "0x466aacfa4f8fd341254053ce073e37b887c147f4": 18,
@@ -197,6 +196,7 @@
     "0xb6051eeb4fb2837d9454a8b71682fa04d84842a5": 18,
     "0xba5d228947544ab87babd096df6e9c4bc2f59632": 18,
     "0xbf3ea919730431214d701b7271578df291463754": 18,
+    "0xc1b80fe00d30bcce8bb7f2bd0fc49d2db8cca886": 18,
     "0xc2087ec9a35b7590ede51c8edb6da19591a74eb6": 18,
     "0xc3e8fac3c96fd1ab1c716167795728543296e2e5": 18,
     "0xc89318c21180934507772e62199333aa42fad550": 18,
@@ -212,6 +212,7 @@
     "0xdeb6c96e98dab3289a11a0fe97930a5312d8c151": 18,
     "0xdf992392b9a00cb205d48399fe014d56ea0d0b5e": 18,
     "0xdffaf866a3c1a808b918dd9ac635c64c879eddd5": 18,
+    "0xe3fca3a2867c605a85666936161d65422aa9cfda": 6,
     "0xe4911aa829030b8d1d45bc7118213970cda06503": 18,
     "0xe867dca613b8789a517dba2a950074b53a9300c2": 18,
     "0xeb811a938157e70f5a4e6e905e0de83fa217a732": 18,
@@ -220,7 +221,9 @@
     "0xf56dacbc7c4af1bc88c43eeeedb4704b67756c76": 18,
     "0xfbcc2b143258a7a20572be3304086bfd240a4f92": 18,
     "0xfbdc0a3f77521ce6acc4a017f16d9137e7bf070c": 18,
+    "2": 18,
     "3KV": 18,
+    "7": 18,
     "AAA": 18,
     "APR": 18,
     "AUCH": 18,
@@ -300,6 +303,7 @@
     "TOK2": 18,
     "UPA": 18,
     "USDC": 6,
+    "USDT": 6,
     "VAD": 18,
     "W": 18,
     "WEF": 18,
