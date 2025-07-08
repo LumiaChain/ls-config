@@ -1,4 +1,3 @@
-
 {
   "chainName": "arbitrum",
   "chainId": 42161,
@@ -152,6 +151,7 @@
     "0xda10009cbd5d07dd0cecc66161fc93d7c9000da1": 18,
     "0xff970a61a04b1ca14834a43f5de4533ebddb5cc8": 6,
     "ETH": 18,
+    "WETH": 18,
     "USDC": 6,
     "USDT": 6,
     "WBTC": 8,
