@@ -2,15 +2,22 @@ syntax = "proto3";
 
 package state;
 
+enum Type {
+  Account = 0;
+  SasPool = 1;
+}
+
 message UpdateBalance {
   bytes wallet = 1;
   repeated BalanceWithDiff token_balances = 2;
+  Type type = 3;
 }
 
 message BalanceWithDiff {
   bytes contract = 1;
   bytes balance = 2;
   bytes diff = 3; // Optional: will be 0 in StateOnHeight
+  optional bytes deposited = 4; // Optional
 }
 
 message UpdateEvent {
@@ -29,9 +36,11 @@ message StateOnHeight {
 message StateBalance {
   bytes wallet = 1;
   repeated TokenBalance token_balances = 2;
+  Type type = 3;
 }
 
 message TokenBalance {
   bytes contract = 1;
   bytes balance = 2;
+  optional bytes deposited = 3; // Optional
 }
