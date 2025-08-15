@@ -3,10 +3,6 @@
   "chainId": 2030232745,
   "multicallAddress": "0x4615Dc03DE78Def9597db25C1d3b675838eC7D1f",
   "nativeBalanceRead": "0x19891c5bc8ae9866f6d2cba3df2b836e18ffb4c9",
-  "singleAssetStaking": {
-    "poolManagerAddress": "0x2c3E48dfa3a652749a708C6af7AA096184252d56",
-    "timeThresholdBeforeNextEpochMinutes": 10
-  },
   "rpc": [
     {
       "url": "https://beam-rpc.lumia.org",
