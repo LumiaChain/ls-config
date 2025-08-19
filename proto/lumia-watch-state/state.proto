@@ -17,7 +17,8 @@ message BalanceWithDiff {
   bytes contract = 1;
   bytes balance = 2;
   bytes diff = 3; // Optional: will be 0 in StateOnHeight
-  optional bytes deposited = 4; // Optional
+  optional bytes deposited = 4;
+  optional bytes withdrawn = 5;
 }
 
 message UpdateEvent {
@@ -42,5 +43,6 @@ message StateBalance {
 message TokenBalance {
   bytes contract = 1;
   bytes balance = 2;
-  optional bytes deposited = 3; // Optional
+  optional bytes deposited = 3;
+  optional bytes withdrawn = 4;
 }
