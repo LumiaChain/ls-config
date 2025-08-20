@@ -15,7 +15,7 @@
       "maxMulticallSize": 3084
     }
   ],
-  "wethAddress": "0xc1b80fe00d30bcce8bb7f2bd0fc49d2db8cca886",
+  "wethAddress": "0x4390573991dbe3b4BFA37768244dAc8241eB65ba",
   "wethAsset": "WLUMIA",
   "nativeAsset": "LUMIA",
   "assetToAddress": {
@@ -106,7 +106,7 @@
     "W": "0x84c739dd3a2499be070f8c632a32f1d50ea4ec79",
     "WEF": "0x72d723193d07bd9b8edbaa034900008be91e8543",
     "WHY": "0x8218f605e5a756dbc5bbf2623c323cf56b8ae13f",
-    "WLUMIA": "0xc1b80fe00d30bcce8bb7f2bd0fc49d2db8cca886",
+    "WLUMIA": "0x4390573991dbe3b4BFA37768244dAc8241eB65ba",
     "WWW": "0x5469289295183f65398e273357e919507a3d63f3",
     "YFI": "0xb0fc76f1c5209324fa0371782dfe5768b81bc04d",
     "ZAL": "0x871292ec96829af8454b69dda852bbee322b97c4",
@@ -195,7 +195,7 @@
     "0xb6051eeb4fb2837d9454a8b71682fa04d84842a5": 18,
     "0xba5d228947544ab87babd096df6e9c4bc2f59632": 18,
     "0xbf3ea919730431214d701b7271578df291463754": 18,
-    "0xc1b80fe00d30bcce8bb7f2bd0fc49d2db8cca886": 18,
+    "0x4390573991dbe3b4BFA37768244dAc8241eB65ba": 18,
     "0xc2087ec9a35b7590ede51c8edb6da19591a74eb6": 18,
     "0xc3e8fac3c96fd1ab1c716167795728543296e2e5": 18,
     "0xc89318c21180934507772e62199333aa42fad550": 18,
