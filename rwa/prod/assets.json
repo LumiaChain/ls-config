@@ -1,0 +1,38 @@
+{
+  "assets": [
+    {
+      "ticker": "AAPL",
+      "conid": 265598,
+      "token": "rwaAAPL",
+      "chainInfo": [
+        {
+          "chainId": 1,
+          "tokenAddress": "0x123",
+          "tokenDecimals": 6
+        },
+        {
+          "chainId": 56,
+          "tokenAddress": "0x234",
+          "tokenDecimals": 6
+        }
+      ]
+    },
+    {
+      "ticker": "IBM",
+      "conid": 8314,
+      "token": "rwaIBM",
+      "chainInfo": [
+        {
+          "chainId": 1,
+          "tokenAddress": "0x345",
+          "tokenDecimals": 6
+        },
+        {
+          "chainId": 56,
+          "tokenAddress": "0x456",
+          "tokenDecimals": 6
+        }
+      ]
+    }
+  ]
+}
