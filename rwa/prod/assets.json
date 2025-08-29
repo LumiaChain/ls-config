@@ -9,26 +9,52 @@
           "chainId": 1,
           "tokenAddress": "0x0000000000000000000000000000000000000000",
           "tokenDecimals": 6
-        },
+        }
+      ]
+    },
+    {
+      "ticker": "PLTR",
+      "conid": 444857009,
+      "token": "rwaPLTR",
+      "chainInfo": [
         {
-          "chainId": 56,
+          "chainId": 1,
           "tokenAddress": "0x0000000000000000000000000000000000000000",
           "tokenDecimals": 6
         }
       ]
     },
     {
-      "ticker": "IBM",
-      "conid": 8314,
-      "token": "rwaIBM",
+      "ticker": "NVDA",
+      "conid": 4815747,
+      "token": "rwaNVDA",
       "chainInfo": [
         {
           "chainId": 1,
           "tokenAddress": "0x0000000000000000000000000000000000000000",
           "tokenDecimals": 6
-        },
+        }
+      ]
+    },
+    {
+      "ticker": "TSLA",
+      "conid": 76792991,
+      "token": "rwaTSLA",
+      "chainInfo": [
         {
-          "chainId": 56,
+          "chainId": 1,
+          "tokenAddress": "0x0000000000000000000000000000000000000000",
+          "tokenDecimals": 6
+        }
+      ]
+    },
+    {
+      "ticker": "AMZN",
+      "conid": 3691937,
+      "token": "rwaAMZN",
+      "chainInfo": [
+        {
+          "chainId": 1,
           "tokenAddress": "0x0000000000000000000000000000000000000000",
           "tokenDecimals": 6
         }
@@ -36,3 +62,6 @@
     }
   ]
 }
+
+
+
