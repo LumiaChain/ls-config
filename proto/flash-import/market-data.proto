@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+package flash;
+
+enum Exchange {
+  IBKR = 0;
+  BINANCE = 1;
+  OKX = 2;
+  BYBIT = 3;
+}
+
+message MarketData {
+  Exchange exchange = 1;
+  string asset_pair = 2;
+  fixed64 timestamp = 3;
+  optional float ask_price = 4;
+  optional float ask_amount = 5;
+  optional float bid_price = 6;
+  optional float bid_amount = 7;
+}
