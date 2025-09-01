@@ -59,6 +59,30 @@
           "tokenDecimals": 6
         }
       ]
+    },
+    {
+      "ticker": "RUI",
+      "conid": 282449256,
+      "token": "rwaRUI",
+      "chainInfo": [
+        {
+          "chainId": 1,
+          "tokenAddress": "0x0000000000000000000000000000000000000000",
+          "tokenDecimals": 6
+        }
+      ]
+    },
+    {
+      "ticker": "ALV",
+      "conid": 14079,
+      "token": "rwaALV",
+      "chainInfo": [
+        {
+          "chainId": 1,
+          "tokenAddress": "0x0000000000000000000000000000000000000000",
+          "tokenDecimals": 6
+        }
+      ]
     }
   ]
 }
