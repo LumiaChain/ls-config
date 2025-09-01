@@ -13,8 +13,9 @@ message MarketData {
   Exchange exchange = 1;
   string asset_pair = 2;
   fixed64 timestamp = 3;
-  optional float ask_price = 4;
-  optional float ask_amount = 5;
-  optional float bid_price = 6;
-  optional float bid_amount = 7;
+  optional string last_price = 4;
+  optional string ask_price = 5;
+  optional string ask_amount = 6;
+  optional string bid_price = 7;
+  optional string bid_amount = 8;
 }
