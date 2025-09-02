@@ -7,7 +7,7 @@
       "chainInfo": [
         {
           "chainId": 1,
-          "tokenAddress": "0x0000000000000000000000000000000000000000",
+          "tokenAddress": "0x0000000000000000000000000000000000000001",
           "tokenDecimals": 6
         }
       ]
@@ -19,7 +19,7 @@
       "chainInfo": [
         {
           "chainId": 1,
-          "tokenAddress": "0x0000000000000000000000000000000000000000",
+          "tokenAddress": "0x0000000000000000000000000000000000000002",
           "tokenDecimals": 6
         }
       ]
@@ -31,7 +31,7 @@
       "chainInfo": [
         {
           "chainId": 1,
-          "tokenAddress": "0x0000000000000000000000000000000000000000",
+          "tokenAddress": "0x0000000000000000000000000000000000000003",
           "tokenDecimals": 6
         }
       ]
@@ -43,7 +43,7 @@
       "chainInfo": [
         {
           "chainId": 1,
-          "tokenAddress": "0x0000000000000000000000000000000000000000",
+          "tokenAddress": "0x0000000000000000000000000000000000000004",
           "tokenDecimals": 6
         }
       ]
@@ -55,7 +55,7 @@
       "chainInfo": [
         {
           "chainId": 1,
-          "tokenAddress": "0x0000000000000000000000000000000000000000",
+          "tokenAddress": "0x0000000000000000000000000000000000000005",
           "tokenDecimals": 6
         }
       ]
@@ -67,7 +67,7 @@
       "chainInfo": [
         {
           "chainId": 1,
-          "tokenAddress": "0x0000000000000000000000000000000000000000",
+          "tokenAddress": "0x0000000000000000000000000000000000000006",
           "tokenDecimals": 6
         }
       ]
@@ -79,7 +79,7 @@
       "chainInfo": [
         {
           "chainId": 1,
-          "tokenAddress": "0x0000000000000000000000000000000000000000",
+          "tokenAddress": "0x0000000000000000000000000000000000000007",
           "tokenDecimals": 6
         }
       ]
