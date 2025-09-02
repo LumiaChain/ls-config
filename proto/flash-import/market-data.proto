@@ -13,7 +13,6 @@ message MarketData {
   Exchange exchange = 1;
   string asset_pair = 2;
   fixed64 timestamp = 3;
-  optional string last_price = 4;
   optional string ask_price = 5;
   optional string ask_amount = 6;
   optional string bid_price = 7;
